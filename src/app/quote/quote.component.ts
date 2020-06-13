@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Quote} from "../quote";
+import {Quotes} from "../quotes";
 
 @Component({
   selector: 'app-quote',
@@ -8,8 +8,8 @@ import {Quote} from "../quote";
 })
 export class QuoteComponent implements OnInit {
 
-  quotes=[new Quote("ANC","Julius Malema","Mama give us a sign"),
-  new Quote("Lupita","Black Panther","Wakanda Forever")]
+  quotes=[new Quotes("ANC","Julius Malema","Mama give us a sign"),
+  new Quotes("Lupita","Black Panther","Wakanda Forever")]
     preNum:number
     lastNum:number
     counter:number
