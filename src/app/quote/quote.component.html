@@ -1,25 +1,30 @@
- <div class="container">
-    <h1>Motivating Quotes.</h1>
-</div>
+ <div class="container" id="hed">
+    <h1 >Motivating Quotes.</h1>
+     
 
-<div class="container">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-6">
             <hr>
-            <div class="myQuote"*ngFor="let quote of quotes; let i=index">
+            <div class="myQuote" *ngFor="let quote of quotes; let i=index">
                 <p appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p>
                 <p *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
                 <app-quote-detail [quote]="quote"></app-quote-detail>
 
                 <button class="btn btn-primary" (click)="upvote(i)">Upvote</button>
+                
                 <button class="btn btn-secondary" (click)="downvote(i)">Downvote</button>
+                
                 <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
-
+                
                 <hr>
-                
-                    <!-- <app-quote-form(emitQuote)="addQuote($event)"></app-quote-form> -->
-                
-            </div>
+               </div>
         </div>
-    </div>
-</div>
+        <div class="col-md-6">
+         <div class="card wow fadeInRight" data-wow-delay="0.3s">
+     <app-quote-form (emitQuote)="addQuote($event)"></app-quote-form>
+      </div>
+   </div>
+ </div>
+ </div>
+
+
