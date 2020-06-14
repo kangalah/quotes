@@ -8,8 +8,8 @@ import {Quotes} from "../quotes";
 })
 export class QuoteComponent implements OnInit {
 
-  quotes=[new Quotes("ANC","Julius Malema","Mama give us a sign"),
-  new Quotes("Lupita","Black Panther","Wakanda Forever")]
+  quotes=[new Quotes("New light","Carol Burnett","When you have a dream,you've got to grab it and never let go"),
+  new Quotes("President","Zig Ziglar","What you get by achieving your goals is not as important as what you become by achieving your goals. ")]
     preNum:number
     lastNum:number
     counter:number
