@@ -13,7 +13,7 @@ This is a Angular 9 application that allows users to create quotes, addd, upvote
 * HTML 5
 * CSS
 
-## Installation Steps
+## Project set-up instructions
 Make sure you have all the Requirements or running angular apps installed such as node, npm, tsc etc.
 * Clone the repository onto your local machine.
 * Run ng serve command on your terminal for a dev server.Navigate to http://localhost:4200/.The app will automatically reload if you change any of the source files.
