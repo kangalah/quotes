@@ -2,29 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
-By Joan Nanjala.
+# By Joan Nanjala.
 
 ## Description
 
 This is a Angular 9 application that allows users to create quotes, addd, upvote, downvote or delete a quote.
 
 ## Technologies used.
-*Angular js 
-*HTML 5
-*CSS
+* Angular js 
+* HTML 5
+* CSS
 
 ## Installation Steps
-*Make sure you have all the Requirements or running angular apps installed such as node, npm, tsc etc.
+Make sure you have all the Requirements or running angular apps installed such as node, npm, tsc etc.
 * Clone the repository onto your local machine.
 * Run ng serve command on your terminal for a dev server.Navigate to http://localhost:4200/.The app will automatically reload if you change any of the source files.
 
 ## Behaviour Driven development
 The  application allows users to:
-  1. Create a new quote.
-  2. Upvote a quote.
-  3. Downvote a quote.
-  4. Delete a quote.
-  5. See the number of upvotes and number of downvotes for each quote.
+  * Create a new quote.
+  * Upvote a quote.
+  * Downvote a quote.
+  * Delete a quote.
+  * See the number of upvotes and number of downvotes for each quote.
 
 
 
