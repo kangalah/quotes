@@ -2,6 +2,28 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
+By Joan Nanjala.
+
+## Technologies used.
+*Angular js 
+*HTML 5
+*CSS
+
+## Installation Steps
+*Make sure you have all the Requirements or running angular apps installed such as node, npm, tsc etc.
+* Clone the repository onto your local machine.
+* Run ng serve command on your terminal for a dev server.Navigate to http://localhost:4200/.The app will automatically reload if you change any of the source files.
+
+## Behaviour Driven development
+The  application allows users to:
+  1. Create a new quote.
+  2. Upvote a quote.
+  3. Downvote a quote.
+  4. Delete a quote.
+  5. See the number of upvotes and number of downvotes for each quote.
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,3 +47,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contact Details
+ You can contact at *nyongesajoannanjala@gmail.com*
+
+ ## License
+ Copyright (c) 2020 **Joan Nanjala.**
