@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Quotes } from "../quotes"
+import { Quotes } from '../quotes'
 
 
 @Component({
