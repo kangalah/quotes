@@ -1,5 +1,8 @@
-<div class="container-fluid">
-    <form (ngSubmit)="submitQuote()">
+<div class="container" id="head">
+    <h2 class="text-center">Create New Quote.</h2>
+    <div class="col-md-6">
+        <hr>
+    <form (ngSubmit)="submitQuote()" #quoteForm="ngForm">
         <br>
         <div class="form-group">
             <label for="name"><strong>Person's Name:</strong></label>
@@ -18,4 +21,5 @@
 
         <button type="submit" class="btn btn-primary">Post Quote</button>
     </form>
+  </div>
 </div>
