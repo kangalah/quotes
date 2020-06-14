@@ -4,6 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 By Joan Nanjala.
 
+## Description
+
+This is a Angular 9 application that allows users to create quotes, addd, upvote, downvote or delete a quote.
+
 ## Technologies used.
 *Angular js 
 *HTML 5
