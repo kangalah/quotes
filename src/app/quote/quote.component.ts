@@ -8,12 +8,13 @@ import {Quotes} from "../quotes";
 })
 export class QuoteComponent implements OnInit {
 
-  quotes=[
-    new Quotes("New light","Carol Burnett","When you have a dream,you've got to grab it and never let go"),
-    new Quotes("President","Zig Ziglar","What you get by achieving your goals is not as important as what you become by achieving your goals. ")
-  ]
-    
-      addQuote(emittedQuote){
+  quotes=[new Quotes("New light","Carol Burnett","When you have a dream,you've got to grab it and never let go"),
+  new Quotes("President","Zig Ziglar","What you get by achieving your goals is not as important as what you become by achieving your goals. ")]
+    preNum:number
+    lastNum:number
+    counter:number
+  
+    addQuote(emittedQuote){
       this.quotes.push(emittedQuote)
     }
   
@@ -26,10 +27,6 @@ export class QuoteComponent implements OnInit {
     delQuote(i){
       this.quotes.splice(i, 1)
     }
-    preNum:number
-    lastNum:number
-    counter:number
-    
     highestUpvote(){
       this.preNum = 0
       this.lastNum = 0
