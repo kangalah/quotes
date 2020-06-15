@@ -9,9 +9,9 @@
                 <p *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
                 <app-quote-detail [quote]="quote"></app-quote-detail>
 
-                <button class="btn btn-primary" (click)="upvote(i)" id="new">Upvote</button>
+                <button class="btn btn-primary" (click)="upvote(i)" id="new">Like</button>
                 
-                <button class="btn btn-secondary" (click)="downvote(i)" id="new">Downvote</button>
+                <button class="btn btn-secondary" (click)="downvote(i)" id="new">Dislike</button>
                 
                 <button class="btn btn-danger" (click)="delQuote(i)" id="new">Delete</button>
                 
