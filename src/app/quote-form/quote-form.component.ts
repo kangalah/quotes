@@ -9,14 +9,15 @@ import { Quotes } from '../quotes';
   styleUrls: ['./quote-form.component.css']
 })
 export class QuoteFormComponent implements OnInit {
-  @Output() emitQuote= new EventEmitter()
+  newQuote = new Quotes ("", "", "", new Date)
+  @Output() emitQuote= new EventEmitter();
   quoteStr:string
   quotePublisher:string
   quoteAuthor:string
   theQuote:any
 
   submitQuote( ){
-    this.theQuote= new Quotes(this.quotePublisher, this.quoteAuthor, this.quoteStr)
+    this.theQuote= new Quotes(this.quotePublisher, this.quoteAuthor, this.quoteStr, this.theQuote)
     this.quoteStr=''
     this.quoteAuthor=''
     this.quotePublisher=''

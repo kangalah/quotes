@@ -1,5 +1,7 @@
 #hed{
-    background-color: cyan;
+    background-image: url("http://bitly.ws/8Mrb");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     color:red;

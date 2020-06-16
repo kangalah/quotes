@@ -8,15 +8,23 @@ import {Quotes} from "../quotes";
 })
 export class QuoteComponent implements OnInit {
 
-  quotes=[new Quotes("New light","Carol Burnett","When you have a dream,you've got to grab it and never let go"),
-  new Quotes("President","Zig Ziglar","What you get by achieving your goals is not as important as what you become by achieving your goals. ")]
+  quotes=[
+  new Quotes("New light","When you have a dream,you've got to grab it and never let go", "Carol Burnett", new Date(2020, 3, 14)),
+  new Quotes("UOA","What you get by achieving your goals is not as important as what you become by achieving your goals.", "Zig Ziglar", new Date(2019,4,18)),
+  new Quotes("Positt","One positive thought in the morning , can brighten your whole day", "Joan Nanjala.", new Date(2020,6,16))
+]
     preNum:number
     lastNum:number
     counter:number
   
-    addQuote(emittedQuote){
+    addNewQuote(emittedQuote){
       this.quotes.push(emittedQuote)
     }
+    // addNewQuotes(emittedQuote){
+    //   let quoteLength = this.quotes.length;
+    //   Quotes.myDate = new Date(Quotes.myDate)
+    //   this.quotes.push(emittedQuote)
+    // }
   
     upvote(i){
         this.quotes[i].upvotes+=1

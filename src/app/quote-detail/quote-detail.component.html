@@ -1,7 +1,7 @@
-<div class="container">
-    <p>Author:{{quote.author}}</p>
-    <p>Publisher:{{quote.name}}</p>
-    <p>Upvotes:{{quote.upvotes}}</p>
-    <p>Downvotes:{{quote.downvotes}}</p>
-    <p>{{quote.mydate}}</p>
-  </div>
+<div class="container" id="con">
+    <p>Author: {{quote.author}}</p>
+    <p>published by: {{quote.name}}</p>
+    <p>Upvotes:  {{quote.upvotes}}</p>
+    <p>Downvotes: {{quote.downvotes}}</p>
+    <p>Created on {{quote.myDate|date}}, {{quote.myDate|dateCount}} days old</p>
+</div>
